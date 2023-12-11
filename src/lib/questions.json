@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "question": "Heeft u last van (rood)bruine vlekken in uw gazon?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 2
+      },
+      {
+        "answer": "Nee",
+        "next_id": 3
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 2,
+    "question": "Heeft u last van draderige schimmel tussen het gras?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 13
+      },
+      {
+        "answer": "Nee",
+        "next_id": 4
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 3,
+    "question": "Heeft u last van draderige schimmel tussen het gras?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 5
+      },
+      {
+        "answer": "Nee",
+        "next_id": 6
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 4,
+    "question": "Is het gras vochtig en heeft de bodem een hoge dichtheid?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 14
+      },
+      {
+        "answer": "Nee",
+        "next_id": 7
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 7,
+    "question": "Zijn de vlekken kleiner dan 5 centimeter en in veelvoud?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 18
+      },
+      {
+        "answer": "Nee",
+        "next_id": 9
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 9,
+    "question": "Zijn de punten van de grassprieten rood gekleurd?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 20
+      },
+      {
+        "answer": "Nee",
+        "next_id": 11
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 11,
+    "question": "Zijn de vlekken tegelijkertijd over het hele grasveld gekomen?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 23
+      },
+      {
+        "answer": "Nee",
+        "next_id": 12
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 12,
+    "question": "Is de grond onder de vlek zanderiger dan de rest?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 23
+      },
+      {
+        "answer": "Nee",
+        "next_id": 25
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 3,
+    "question": "Heeft u last van draderige schimmel tussen het gras?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 5
+      },
+      {
+        "answer": "Nee",
+        "next_id": 6
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 5,
+    "question": "Is het de afgelopen tijd koud geweest?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 13
+      },
+      {
+        "answer": "Nee",
+        "next_id": 16
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 6,
+    "question": "Lopen er oranje strepen parallel tussen de grasnerven?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 17
+      },
+      {
+        "answer": "Nee",
+        "next_id": 8
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 8,
+    "question": "Zitten er larven onder de grond?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 10
+      },
+      {
+        "answer": "Nee",
+        "next_id": 19
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 10,
+    "question": "Zijn de bladeren aangevreten en zitten er kleine gaatjes in de bodem?",
+    "answers": [
+      {
+        "answer": "Ja",
+        "next_id": 21
+      },
+      {
+        "answer": "Nee",
+        "next_id": 22
+      }
+    ],
+    "type": "question"
+  },
+  {
+    "id": 13,
+    "question": "Sneeuwschimmel",
+    "desc": "De schimmel kan worden weggehaald door de pluis uit te harken en weg te halen. Verder is verticuteren nodig om de grond te beluchten. In het voorjaar moet het gras geverticuteerd en bijgezaaid worden.",
+    "type": "result"
+  },
+  {
+    "id": 14,
+    "question": "Bladvlekkenziekte",
+    "desc": "Bladvlekkenziekte is het actiefst in een stikstofrijke dichte bodem. Om bladvlekkenziekte tegen te gaan moet het te geverticuteerd worden om de bodem luchtiger te maken. Verder wordt het aangeraden om te stoppen met het geven van stikstofrijke bemesting. Daarnaast kan het gras het beste een tijdje met rust gelaten worden om de belasting te verminderen, wat zal helpen met het herstel.",
+    "type": "result"
+  },
+  {
+    "id": 18,
+    "question": "Dollarspot",
+    "desc": "Dollarspot komt door een verarmde grond en is dus ook een teken dat het gras te weinig stikstof heeft. Geef het gras stikstofrijke bemesting.",
+    "type": "result"
+  },
+  {
+    "id": 20,
+    "question": "Rooddraad",
+    "desc": "Verticuteer het gras en bemest het daarna met veel kalium en stikstof. In de herfst en winter geen stikstof toevoegen.",
+    "type": "result"
+  },
+  {
+    "id": 23,
+    "question": "Droogte",
+    "desc": "Water geven.",
+    "type": "result"
+  },
+  {
+    "id": 25,
+    "question": "Bruine vlekkenroest",
+    "desc": "Maai de bruine plekken en voer het maaisel gelijk af. Bemest het gras vaker zodat de bodem rijker wordt en het gras gezonder wordt.",
+    "type": "result"
+  },
+  {
+    "id": 16,
+    "question": "Meeldauw",
+    "desc": "Maai het gazon tot een lage hoogte aan het eind van de zomer en bemest het gras.",
+    "type": "result"
+  },
+  {
+    "id": 17,
+    "question": "Oranje strepenroest",
+    "desc": "Maai het besmette gras en haal het gemaaide gras weg om schimmels geen kans te geven te verspreiden over de rest van het gras. Bemest het gras daarna.",
+    "type": "result"
+  },
+  {
+    "id": 19,
+    "question": "Gezond gazon",
+    "desc": "Toppie feest, niks aan doen!",
+    "type": "result"
+  },
+  {
+    "id": 21,
+    "question": "Emelten",
+    "desc": "Emelten kunnen worden bestreden door een natuurlijke vijand, namelijk aaltjes (nematoden), de precieze soort die gebruikt wordt is Steinernema carpocapsae. Deze is te koop in meerdere winkels (Biobestrijding, z.d.). Langpootmuggen leggen hun eitjes in losse bodem, dus om te voorkomen dat emelten in het gras komen is het goed om een dichtere bodem te hebben. Emelten kunnen worden bestreden vanaf 8 °C.",
+    "type": "result"
+  },
+  {
+    "id": 22,
+    "question": "Engerlingen",
+    "desc": "Engerlingen zijn net als emelten tegen te gaan met aaltjes (De Graskoning, z.d.). Engerlingen kunnen worden bestreden vanaf 6 °C. ",
+    "type": "result"
+  }
+]

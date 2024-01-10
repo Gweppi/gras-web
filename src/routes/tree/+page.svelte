@@ -75,13 +75,13 @@
                     </div>
                 {:else}
                     <div>
-                        <h1 class="text-xl font-bold">Oplossing</h1>
-                        <p>Een oplossing: {currentQuestion?.desc}</p>
+                        <h1 class="text-xl font-bold">Resultaat</h1>
+                        <p>{currentQuestion?.question}</p>
                     </div>
 
                     <div>
                         <h1 class="text-xl font-bold">Oplossing</h1>
-                        <p>Een oplossing: {currentQuestion?.question}</p>
+                        <p>Een oplossing: {currentQuestion?.desc}</p>
                     </div>
                 {/if}
     

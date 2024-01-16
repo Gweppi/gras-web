@@ -51,6 +51,8 @@
             <h1 class="text-3xl font-bold">{currentQuestion?.question}</h1>
     
             <div class="flex flex-col gap-4">
+
+                <img src="/{currentQuestion?.id}.jpg" alt="mooi" class="rounded-lg">
     
                 {#each currentQuestion?.answers ?? [] as answer (answer.next_id)}
                     <input type="radio" name="radio-1" class="btn" on:click={select(answer.next_id)} aria-label={answer.answer} />
@@ -81,7 +83,7 @@
 
                     <div>
                         <h1 class="text-xl font-bold">Oplossing</h1>
-                        <p>Een oplossing: {currentQuestion?.desc}</p>
+                        <p>{currentQuestion?.desc}</p>
                     </div>
                 {/if}
     

@@ -251,13 +251,13 @@
   {
     "id": 21,
     "question": "Emelten",
-    "desc": "Emelten kunnen worden bestreden door een natuurlijke vijand, namelijk aaltjes (nematoden), de precieze soort die gebruikt wordt is Steinernema carpocapsae. Deze is te koop in meerdere winkels (Biobestrijding, z.d.). Langpootmuggen leggen hun eitjes in losse bodem, dus om te voorkomen dat emelten in het gras komen is het goed om een dichtere bodem te hebben. Emelten kunnen worden bestreden vanaf 8 °C.",
+    "desc": "Emelten kunnen worden bestreden door een natuurlijke vijand, namelijk aaltjes (nematoden), de precieze soort die gebruikt wordt is Steinernema carpocapsae. Deze is te koop in meerdere winkels. Langpootmuggen leggen hun eitjes in losse bodem, dus om te voorkomen dat emelten in het gras komen is het goed om een dichtere bodem te hebben. Emelten kunnen worden bestreden vanaf 8 °C.",
     "type": "result"
   },
   {
     "id": 22,
     "question": "Engerlingen",
-    "desc": "Engerlingen zijn net als emelten tegen te gaan met aaltjes (De Graskoning, z.d.). Engerlingen kunnen worden bestreden vanaf 6 °C. ",
+    "desc": "Engerlingen zijn net als emelten tegen te gaan met aaltjes. Engerlingen kunnen worden bestreden vanaf 6 °C. ",
     "type": "result"
   }
 ]
